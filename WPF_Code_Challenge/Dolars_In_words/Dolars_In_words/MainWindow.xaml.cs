@@ -39,37 +39,11 @@ namespace Dollars_In_words
 
         private void btn_convertToWording(object sender, RoutedEventArgs e)
         {
-            Regex letters = new Regex(@"([\p{L}\s]+)", RegexOptions.Compiled | RegexOptions.IgnoreCase);
-
-            if (letters.IsMatch(txtDollars.Text))
-                MessageBox.Show("You have a letter... Try again!");
+            convertToWords.ParsingTheString(txtDollars.Text, out long dollars, out int cents, out string Error);
+            if (Error == "")
+                txtShowWording.Text = convertToWords.DollarsToWords(dollars, cents);
             else
-            {
-                if (string.IsNullOrEmpty(txtDollars.Text))
-                    MessageBox.Show("Write a number!");
-                else
-                {
-                    if (txtDollars.Text.Contains(","))
-                    {
-                        string[] dollarsAndCents = txtDollars.Text.Split(',');
-
-                        string dollars = dollarsAndCents[0];
-                        string cents = dollarsAndCents[1].PadRight(2, '0');
-                        txtShowWording.Text = convertToWords.DollarsToWords(Int64.Parse(dollars), Int32.Parse(cents));
-                    }
-                    else
-                    {
-                        try
-                        {
-                            txtShowWording.Text = convertToWords.DollarsToWords(Int64.Parse(txtDollars.Text));
-                        }
-                        catch (Exception)
-                        {
-                            MessageBox.Show("Unknow character! Try again!");
-                        }
-                    }
-                }
-            }
+                MessageBox.Show(Error);
         }
     }
 }

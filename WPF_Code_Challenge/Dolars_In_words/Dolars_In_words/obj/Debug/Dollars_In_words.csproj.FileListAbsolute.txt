@@ -12,3 +12,4 @@ C:\Users\tiago\Desktop\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\obj\De
 C:\Users\tiago\Desktop\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\obj\Debug\Dolars_In_words.Properties.Resources.resources
 C:\Users\tiago\Desktop\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\obj\Debug\Dollars_In_words.csproj.GenerateResource.cache
 C:\Users\tiago\Desktop\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\obj\Debug\Dollars_In_words.csproj.CoreCompileInputs.cache
+C:\Users\tiago\Desktop\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\obj\Debug\Dollars_In_words.csprojAssemblyReference.cache

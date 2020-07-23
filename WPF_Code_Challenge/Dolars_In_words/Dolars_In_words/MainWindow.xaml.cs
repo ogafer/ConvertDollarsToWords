@@ -41,7 +41,10 @@ namespace Dollars_In_words
         {
             convertToWords.ParsingTheString(txtDollars.Text, out long dollars, out int cents, out string Error);
             if (Error == "")
-                txtShowWording.Text = convertToWords.DollarsToWords(dollars, cents);
+            {
+                convertToWords.DollarsToWords(dollars, cents);
+                txtShowWording.Text = convertToWords.Result();
+            }
             else
                 MessageBox.Show(Error);
         }

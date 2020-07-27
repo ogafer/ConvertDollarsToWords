@@ -16,7 +16,6 @@ C:\Users\tiago\Desktop\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\obj\De
 C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\bin\Debug\Dolars_In_words.exe.config
 C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\bin\Debug\Dolars_In_words.exe
 C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\bin\Debug\Dolars_In_words.pdb
-C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\obj\Debug\Dollars_In_words.csprojAssemblyReference.cache
 C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\obj\Debug\MainWindow.g.cs
 C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\obj\Debug\App.g.cs
 C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Dolars_In_words\obj\Debug\Dolars_In_words_MarkupCompile.cache

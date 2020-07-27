@@ -22,8 +22,8 @@ namespace Dollars_In_words
     /// </summary>
     public partial class MainWindow : Window
     {
-        #region Variables
-        ConvertToWords convertToWords = new ConvertToWords();
+        #region Instance
+        Dolars_In_words.ServiceReferenceClient.ServiceConvertToDollarsClient dollarsConversion = new Dolars_In_words.ServiceReferenceClient.ServiceConvertToDollarsClient();
         #endregion
 
         public MainWindow()
@@ -39,14 +39,17 @@ namespace Dollars_In_words
 
         private void btn_convertToWording(object sender, RoutedEventArgs e)
         {
-            convertToWords.ParsingTheString(txtDollars.Text, out long dollars, out int cents, out string Error);
-            if (Error == "")
+            long dollars = 0;
+            int cents = 0;
+            string error = "";
+            dollarsConversion.ParsingTheString(txtDollars.Text, ref dollars, ref cents, ref error);
+            if (error == "")
             {
-                convertToWords.DollarsToWords(dollars, cents);
-                txtShowWording.Text = convertToWords.Result();
+                dollarsConversion.DollarsToWords(dollars, cents);
+                txtShowWording.Text = dollarsConversion.Result();
             }
             else
-                MessageBox.Show(Error);
+                MessageBox.Show(error);
         }
     }
 }

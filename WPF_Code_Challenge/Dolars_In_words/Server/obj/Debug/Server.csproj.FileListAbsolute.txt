@@ -1,0 +1,6 @@
+C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\bin\Debug\Server.dll.config
+C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\bin\Debug\Server.dll
+C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\bin\Debug\Server.pdb
+C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\obj\Debug\Server.dll
+C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\obj\Debug\Server.pdb

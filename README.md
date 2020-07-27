@@ -1,2 +1,2 @@
 # ConvertDollarsToWords
-WPF application to convert number (dollars) in words
+WPF application (client) to convert numbers (dollars) in words with a WCF server

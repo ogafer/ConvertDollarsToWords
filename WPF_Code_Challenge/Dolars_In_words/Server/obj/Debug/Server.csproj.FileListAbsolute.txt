@@ -4,3 +4,10 @@ C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\
 C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
 C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\obj\Debug\Server.dll
 C:\Users\tiago\Desktop\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\obj\Debug\Server.pdb
+D:\Carreira\Treino\C#\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\bin\Debug\Server.dll.config
+D:\Carreira\Treino\C#\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\bin\Debug\Server.dll
+D:\Carreira\Treino\C#\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\bin\Debug\Server.pdb
+D:\Carreira\Treino\C#\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\obj\Debug\Server.csprojAssemblyReference.cache
+D:\Carreira\Treino\C#\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\Carreira\Treino\C#\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\obj\Debug\Server.dll
+D:\Carreira\Treino\C#\Code_Challenge\WPF_Code_Challenge\Dolars_In_words\Server\obj\Debug\Server.pdb
